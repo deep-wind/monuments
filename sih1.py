@@ -28,11 +28,11 @@ def load_image(image_file):
 st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>Monuments Identification from Satellite Images</h1>", unsafe_allow_html=True)
 image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
 
-#if image_file is not None:
+if image_file is not None:
 	 # To See details
-file_details = {"filename":image_file.name, "filetype":image_file.type,
+     file_details = {"filename":image_file.name, "filetype":image_file.type,
                   "filesize":image_file.size}
-st.write(file_details)
+     st.write(file_details)
 
 # To View Uploaded Image
 st.image(load_image(image_file),width=200)
