@@ -40,7 +40,7 @@ if image_file is not None:
     
     #image_file=load_image(image_file)
     
-    st.write(image_file.type)
+  #  st.write(image_file.type)
     categories = ['ajantacaves','amaravathistupa','charminar','gatewayofindia','golgumbaz','indiagate','kanchmahal','konraksuntemple','qutubminar','tajmahal','vivekanandharock']
     
     model = tf.keras.models.load_model('model.h5')
