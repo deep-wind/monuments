@@ -35,11 +35,9 @@ if image_file is not None:
      st.write(file_details)
 
 # To View Uploaded Image
-st.image(load_image(image_file),width=200)
+     st.image(load_image(image_file),width=200)
 
-#image_file=load_image(image_file)
 
-st.write(image_file.type)
 categories = ['ajantacaves','amaravathistupa','charminar','gatewayofindia','golgumbaz','indiagate','kanchmahal','konraksuntemple','qutubminar','tajmahal','vivekanandharock']
 
 model = tf.keras.models.load_model('model.h5')
