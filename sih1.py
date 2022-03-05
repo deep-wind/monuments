@@ -26,7 +26,7 @@ def load_image(image_file):
 
 
 st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>Monuments Identification from Satellite Images</h1>", unsafe_allow_html=True)
-image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
+image_file = st.file_uploader("Upload Images", type=["png","jpg"])
 
 
 if image_file is not None:
