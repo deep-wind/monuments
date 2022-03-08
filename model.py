@@ -12,6 +12,9 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 import tensorflow as tf 
 import pathlib
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras.models import Sequential
 
 #Load dataset
 data_dir = pathlib.Path("monuments")
