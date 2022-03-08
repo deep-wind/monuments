@@ -9,6 +9,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 #Load dataset
+import pathlib
 data_dir = pathlib.Path("monuments")
 image_count = len(list(data_dir.glob('*/*.png')))
 print(image_count)
