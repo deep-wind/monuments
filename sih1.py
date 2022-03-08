@@ -14,7 +14,7 @@ import pathlib
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
-
+import PIL
 def load_image(image_file):
 	img = Image.open(image_file)
 	if(image_file.type=="image/png"):
