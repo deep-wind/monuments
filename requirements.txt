@@ -8,3 +8,4 @@ plotly
 matplotlib
 sklearn
 opencv-python
+Image
