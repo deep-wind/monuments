@@ -12,21 +12,13 @@ import matplotlib.pyplot as plt
 #import cv2
 import numpy as np
 from tensorflow.keras.preprocessing import image
-import tensorflow as tf 
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  2 23:32:33 2022
-
-@author: PRAMILA
-"""
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 from tensorflow.keras.preprocessing import image
-import tensorflow as tf 
 import pathlib
 from tensorflow import keras
 from tensorflow.keras import layers
