@@ -85,6 +85,6 @@ model.compile(optimizer='adam',
               
 model.fit(X_train_scaled, y_train, epochs=50)             
 
-model.save('model.h5')
+model.save('model.7z.001')
 
 
