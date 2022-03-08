@@ -45,7 +45,7 @@ if image_file is not None:
   #  st.write(image_file.type)
     categories = ['ajantacaves','amaravathistupa','charminar','gatewayofindia','golgumbaz','indiagate','kanchmahal','konraksuntemple','qutubminar','tajmahal','vivekanandharock']
     
-    model = tf.keras.models.load_model('model.7z.001')
+    model = tf.keras.models.load_model('model.h5')
     #path = r"C:\Users\PRAMILA\.spyder-py3\project\monuments\ajantacaves\ajantacaves3.png"
     if(image_file.type=="image/png"):
        img = image.load_img("monuments.png", target_size=(224,224))
