@@ -48,9 +48,9 @@ if image_file is not None:
     model = tf.keras.models.load_model('model.h5')
     #path = r"C:\Users\PRAMILA\.spyder-py3\project\monuments\ajantacaves\ajantacaves3.png"
     if(image_file.type=="image/png"):
-       img = image.load_img("monuments.png", target_size=(224,224))
+       img = image.load_img("monuments.png", target_size=(180,180))
     if(image_file.type=="image/jpg"):
-        img = image.load_img("monuments.jpg", target_size=(224,224))
+        img = image.load_img("monuments.jpg", target_size=(180,180))
     #st.write(plt.imshow(img))
     x = image.img_to_array(img)
     
